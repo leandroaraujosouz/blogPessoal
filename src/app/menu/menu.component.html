@@ -3,7 +3,7 @@
     <div class="nav-item d-flex align-items-center">
         <img src="{{foto}}" alt="imagem do usuario" width="70px" height="70px" class="rounded-circle p-2">
         <p class="m-0 font-weight-bold text-white fs-16">Olá {{nome}}</p>
-        <a href="">
+        <a [routerLink]="['/user-edit',id]">
             <i class="fa fa-pencil-square-o text-white fs-16 p-2" aria-hidden="true"></i>
         </a>
     </div>
